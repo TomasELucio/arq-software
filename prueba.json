@@ -1,0 +1,16 @@
+
+nombre_profe	"gerardo"
+nombre_alumno	"tomas"
+materia	"arq software"
+hora_inicio	"17:00"
+hora_fin	"20:00"
+redes_sociales	
+facebook	"acebook.com"
+twitter	"twitter.com"
+instagram	"instagram.com"
+estamos_en_clase	true
+ventanas_cerradas	
+0	false
+1	true
+2	false
+3	true
