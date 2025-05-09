@@ -1,13 +1,16 @@
 package main
 
 import (
+	"API-VINILOS/config"
 	"API-VINILOS/handlers"
 
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
-	handlers.InitDB()
+	config.InitDB()
+	config.DB.AutoMigrate()
+
 	router := gin.Default()
 	router.GET("/albums", handlers.GetAlbums)
 	router.POST("/albums", handlers.PostAlbums)
