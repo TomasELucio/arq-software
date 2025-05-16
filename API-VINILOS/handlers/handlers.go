@@ -72,5 +72,5 @@ func DeleteById(ctx *gin.Context) {
 		return
 	}
 	ctx.IndentedJSON(http.StatusOK, gin.H{"message": "album eliminado"})
-	return
+
 }
